@@ -1,6 +1,6 @@
 # CSV parser & twitter analyzer
 
-> ## This repository is for homework submission, not for general use. I will not be maintained, will be closed ASAP.
+> ## This repository is for homework submission, not for general use. It will not be maintained, will be closed ASAP.
 
 ## Team Members
 - Xiaoshi Wu
