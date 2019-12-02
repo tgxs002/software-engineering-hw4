@@ -18,21 +18,25 @@ hw4.y contains the handmade c code essential for twitter analyzing.
 
 Assume that you are running on ubuntu. If you do not want to modify the program, this is not necessary, since source code and makefile has already been generated. The following rules are only necessay if you want to modify the rules and renew the c source code:
 
-1. install flex.
+1. Install flex.
 
 >sudo apt-get install flex
 
-2. install bison.
+2. Install bison.
 
 >sudo apt-get install bison
 
-3. generate c files and compile them.
+3. Generate c files and compile them.
 
 >./gen&compile.sh
 
 ## How to run
 
-4. if you would like to use afl for test, you should modify the Makefile by:
+1. Assume that you are using ubuntu, just make it.
+
+>make
+
+2. If you would like to use afl for test, you should modify the Makefile by:
 
 - change CC to your afl-clang compiler's path
 - add -g to CCFLAGS
